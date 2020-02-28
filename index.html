@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--引入外部的css文件-->
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <!-- <label>标签通常和<input>标签一起使用,<label>标签为input元素定义标注(标记) -->
+        矩形计算器 v0.1<br/>
+        <label>宽度：</label>
+        <input id="width" type="text"/>
+        <label id="must">*</label><br/>
+        <p id="massage1">宽度不能为空！</p>
+        <label>高度：</label>
+        <input id="height" type="text"/>
+        <label id="must">*</label><br/>
+        <p id="massage2">高度不能为空！</p>
+        <input id="calculate" type="button" value="计算"/><br/>
+        <label>周长：</label>
+        <input id="perimeter" type="text"/><br/>
+        <label>面积：</label>
+        <input id="area" type="text"/>
+    </div>
+
+</body>
+<!-- <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script> -->
+<script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<!--引入外部的js文件-->
+<script type="text/javascript" src="index.js" ></script>
+</html>
+
+
+
+<!-- 运行命令 browser-sync start --server --files '*.html' -->
